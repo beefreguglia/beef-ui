@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "turbo run dev --parallel",
     "storybook": "turbo run storybook --parallel",
+    "build-tokens": "turbo run build-tokens",
+    "panda-codegen": "turbo run panda-codegen",
     "build": "turbo run build"
   },
   "devDependencies": {

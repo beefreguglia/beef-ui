@@ -7,13 +7,19 @@
     "storybook": {
       "cache": false
     },
+    "build-tokens": {
+      "outputs": [
+        "dist/**"
+      ]
+    },
+    "panda-codegen": {},
     "build": {
       "outputs": [
         "dist/**",
         "storybook-static/**"
       ],
       "dependsOn": [
-        "^build"
+        "^build-tokens"
       ]
     }
   }
