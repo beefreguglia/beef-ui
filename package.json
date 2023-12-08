@@ -1,6 +1,6 @@
 {
+  "name": "@beefreguglia/beef-ui",
   "version": "1.0.0",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -15,6 +15,6 @@
     "turbo": "^1.11.0"
   },
   "publishConfig": {
-    "@b.freguglia:registry": "https://npm.pkg.github.com"
+    "@beefreguglia:registry": "https://npm.pkg.github.com"
   }
 }
