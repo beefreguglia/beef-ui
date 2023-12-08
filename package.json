@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "storybook": "turbo run storybook --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^1.11.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

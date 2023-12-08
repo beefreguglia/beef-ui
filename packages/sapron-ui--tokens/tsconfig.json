@@ -1,0 +1,4 @@
+{
+  "extends": "@beefreguglia/beef-ui--ts-config/base.json",
+  "include": ["src"]
+}
