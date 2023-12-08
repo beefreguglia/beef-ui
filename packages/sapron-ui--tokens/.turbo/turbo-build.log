@@ -3,25 +3,16 @@
 > tsup src/index.ts --format esm,cjs --dts
 
 CLI Building entry: src/index.ts
-Error: Cannot find module '@beefreguglia/beef-ui--ts-config/base.json'
-Require stack:
-- /home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/load-tsconfig/dist/index.cjs
-- /home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/bundle-require/dist/index.cjs
-- /home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/tsup/dist/chunk-52KWB5QB.js
-- /home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/tsup/dist/index.js
-- /home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/tsup/dist/chunk-E33JV7SQ.js
-- /home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/tsup/dist/cli-default.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
-    at Function.resolve (node:internal/modules/helpers:187:19)
-    at resolveTsConfigFromExtends (/home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/load-tsconfig/dist/index.cjs:163:18)
-    at loadTsConfigInternal (/home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/load-tsconfig/dist/index.cjs:169:26)
-    at loadTsConfigInternal (/home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/load-tsconfig/dist/index.cjs:185:28)
-    at loadTsConfig (/home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/load-tsconfig/dist/index.cjs:209:35)
-    at normalizeOptions (/home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/tsup/dist/index.js:2229:48)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async /home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/node_modules/tsup/dist/index.js:2265:25
-    at async Promise.all (index 0)
-npm ERR! Lifecycle script `build` failed with error: 
-npm ERR! Error: command failed 
-npm ERR!   in workspace: @beefreguglia/beef-ui--tokens@1.0.0 
-npm ERR!   at location: /home/bfreguglia/Desktop/projetos/seazone/new-sapron-ui/packages/sapron-ui--tokens 
+CLI Using tsconfig: tsconfig.json
+CLI tsup v7.2.0
+CLI Target: node16
+ESM Build start
+CJS Build start
+CJS dist/index.js 4.14 KB
+CJS ⚡️ Build success in 29ms
+ESM dist/index.mjs 2.99 KB
+ESM ⚡️ Build success in 29ms
+DTS Build start
+DTS ⚡️ Build success in 1382ms
+DTS dist/index.d.mts 4.27 KB
+DTS dist/index.d.ts  4.27 KB
