@@ -15,6 +15,6 @@
     "turbo": "^1.11.0"
   },
   "publishConfig": {
-    "@beefreguglia:registry": "https://npm.pkg.github.com"
+    "@b.freguglia:registry": "https://npm.pkg.github.com"
   }
 }
